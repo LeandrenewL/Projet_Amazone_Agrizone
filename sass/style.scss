@@ -1,0 +1,63 @@
+body{
+    background-color: #E0E2E1;
+    nav {
+        a, li, ul {
+            color: white;
+            font-size: 15px;    
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;      
+        }
+        #design_menu_1 {
+                padding-right: 6rem;
+                text-align: center;
+                align-items: center;
+                background-color: #5b3b1d;
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: auto;
+            #categories{
+                color: black;
+                border-radius : 5px;
+                background-color: #F3F3F3;
+            }    
+            #logo_header {
+                    object-fit: contain;
+                    height: 150px;
+                    width: 150px;
+                }
+            #logo_panier {
+                    object-fit: contain;
+                    height: 50px;
+                    width: 50px;
+                }
+            }
+        #design_menu_2 {
+                padding-right: 6rem;
+                text-align: center;
+                align-items: center;
+                background-color: #7c5026;
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                width: auto;
+                #farme_video {
+                    object-fit: contain;
+                    height: 550px;
+                    width: 550px;
+            }
+        }
+    }
+
+    main {
+        background-color: white;
+        #champ_de_ble{
+            object-fit: cover;
+            width: 100%;
+            height: 700px;
+        }
+    }
+}
